@@ -692,9 +692,8 @@ func TestInventoryAllocator(t *testing.T) {
 		output := allocator.InventoryAllocator(test.inputOrder, test.inventory)
 		expectedOutput := test.expectedOutput
 
-		if !reflect.DeepEqual(output, expectedOutput) { //complaining because of wrong ordering
+		if !reflect.DeepEqual(output, expectedOutput) { 
 			t.Errorf("\n Test Name: %v \n \n Inputted: %v \n \n Expected: %#v \n \n Got: %#v \n", test.name, test.inputOrder, test.expectedOutput, output)
-			//t.Error("Test Failed: {} inputted, {} expected, received: {}", test.name, test.inputOrder, test.expectedOutput, output)
 		}
 
 	}
