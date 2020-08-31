@@ -11,7 +11,7 @@ Please ensure you have Golang installed and set up on your PATH
 Inside the deliverr directory, 
 `cd allocator` 
 
-To test, 
+To test, (NOTE: If you are using VSCode, you can simply click the `run test` button) 
 `go test -v` 
 
 I've also written some driver code in main.go to test this project as a build. 
