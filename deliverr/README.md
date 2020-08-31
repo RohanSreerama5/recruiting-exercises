@@ -15,7 +15,7 @@ To test,
 `go test -v` 
 
 I've also written some driver code in main.go to test this project as a build. 
-Simply run, 
+Simply run (from the root of the deliverr directory), 
 
 `go build` 
 
